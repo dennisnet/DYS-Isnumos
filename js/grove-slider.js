@@ -1,0 +1,55 @@
+$('document').ready(function(){
+  //Calling the layer slider
+  $("#layerslider").layerSlider({
+      autoStart               : true,
+      responsive              : true,
+      responsiveUnder         : 1170,
+      sublayerContainer       : 1170,
+      firstLayer              : 1,
+      twoWaySlideshow         : true,
+      randomSlideshow         : true,
+      keybNav                 : true,
+      touchNav                : true,
+      imgPreload              : true,
+      navPrevNext             : true,
+      navStartStop            : true,
+      navButtons              : true,
+      thumbnailNavigation     : 'enable',
+      tnWidth                 : 100,
+      tnHeight                : 60,
+      tnContainerWidth        : '60%',
+      tnActiveOpacity         : 35,
+      tnInactiveOpacity       : 100,
+      hoverPrevNext           : true,
+      hoverBottomNav          : true,
+      skin                    : 'grove',
+      skinsPath               : 'css/vendor/layerslider/skins/',
+      pauseOnHover            : true,
+      globalBGColor           : 'transparent',
+      globalBGImage           : true,
+      animateFirstLayer       : true,
+      yourLogo                : true,
+      yourLogoStyle           : 'position: absolute; z-index: 1001; left: 10px; top: 10px;',
+      yourLogoLink            : true,
+      yourLogoTarget          : '_blank',
+      loops                   : 0,
+      forceLoopNum            : true,
+      autoPlayVideos          : true,
+      autoPauseSlideshow      : 'auto',
+      youtubePreview          : 'maxresdefault.jpg',
+      showBarTimer        : true,
+      showCircleTimer     : true,
+   
+      // you can change this settings separately by layers or sublayers with using html style attribute
+   
+      slideDirection          : 'right',
+      slideDelay              : 4000,
+      durationIn              : 1000,
+      durationOut             : 1000,
+      easingIn                : 'easeInOutQuint',
+      easingOut               : 'easeInOutQuint',
+      delayIn                 : 1,
+      delayOut                : 1
+  });
+
+});
